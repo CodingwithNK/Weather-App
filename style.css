@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin-top: 100px;
+}
+
+.container {
+    width: 350px;
+    height: 530px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: rgb(50, 117, 139);
+    color: white;
+}
+
+.container .search {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+}
+
+.container .search input {
+    width: 88%;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 15px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container .search img {
+    width: 45px;
+    border-radius: 100%;
+    padding: 10px 12px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.container .cloud {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+}
+
+.container .sunTitle {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container .sunTitle .deg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 10px 0;
+    font-size: 23px;
+}
+
+
+.container .sunTitle .cityName {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+}
+
+.container .temp {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: space-around;
+}
+
+.container .temp .humidityBox {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .temp .humidityBox .name {
+    margin-left: 48px;
+    font-weight: 500;
+}
+
+.container .temp .humidity {
+    display: flex;
+    gap: 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container .temp .humidity img {
+    width: 40px;
+    height: 40px;
+}
+
+.container .temp .windBox {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .temp .windBox .name {
+    margin-left: 48px;
+    font-weight: 500;
+}
+
+.container .temp .windSpeed {
+    display: flex;
+    gap: 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container .temp .windSpeed img {
+    width: 40px;
+    height: 40px;
+}
